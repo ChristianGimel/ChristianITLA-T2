@@ -1,0 +1,55 @@
+main {
+    display: flex;
+}
+
+header{
+    
+}
+
+ul, li{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    justify-content:  center;
+}
+
+nav > ul > li{
+    width: 300px;
+}
+
+
+
+section{
+    width: 800px;
+    height: 800px;
+    background-color: teal;
+    border-color: tomato;
+    border-width: 2px;
+    border-style: solid;
+    margin-right: 8px;
+}
+
+.section1{
+    background-color: thistle;
+    flex-direction: column;
+}
+
+.section3 {
+    background-color: #a31621;
+    flex-direction: row;
+}
+
+footer{
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.block1 {
+    
+}
